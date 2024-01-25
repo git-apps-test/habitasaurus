@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 87,
+          "version": 85,
           "minHeight": 800,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -33,6 +33,28 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Calendar_StartupJS.startjsfn",
+              "name": "StartupJS.startjsfn",
+              "collectionId": "Calendar_StartupJS",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Calendar_GetTaskDate",
+              "name": "GetTaskDate",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.TargetDate"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
@@ -51,30 +73,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Calendar_StartupJS.startjsfn",
-              "name": "StartupJS.startjsfn",
-              "collectionId": "Calendar_StartupJS",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  storeValue(\"ProjectName\", '%');\n  if (appsmith.store.PrimaryColor === null) {\n    storeValue(\"PrimaryColor\", '#03B365');\n  }\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Calendar_GetTaskDate",
-              "name": "GetTaskDate",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.TargetDate"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]

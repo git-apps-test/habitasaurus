@@ -34,6 +34,18 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Task_StartupJS.startjsfn",
+              "name": "StartupJS.startjsfn",
+              "collectionId": "Task_StartupJS",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  storeValue(\"ProjectName\", '%');\n  if (appsmith.store.PrimaryColor === null) {\n    storeValue(\"PrimaryColor\", '#03B365');\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -55,18 +67,6 @@
                 "List1.pageSize",
                 "(List1.pageNo - 1) * List1.pageSize",
                 "appsmith.store.ProjectName"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Task_StartupJS.startjsfn",
-              "name": "StartupJS.startjsfn",
-              "collectionId": "Task_StartupJS",
-              "clientSideExecution": true,
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  storeValue(\"ProjectName\", '%');\n  if (appsmith.store.PrimaryColor === null) {\n    storeValue(\"PrimaryColor\", '#03B365');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }
