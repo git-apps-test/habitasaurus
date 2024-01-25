@@ -1,0 +1,39 @@
+{
+    "boxShadow": "none",
+    "widgetName": "IconButton1Copy1CopyCopy2",
+    "buttonColor": "{{currentItem.Status21[\"9\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" }}",
+    "dynamicPropertyPathList": [
+        {"key": "iconName"},
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "displayName": "Icon Button",
+    "iconSVG": "/static/media/icon.1a0c634a.svg",
+    "topRow": 3,
+    "bottomRow": 7,
+    "parentRowSpace": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 20.0625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 30,
+    "dynamicBindingPathList": [
+        {"key": "iconName"},
+        {"key": "buttonColor"}
+    ],
+    "isDisabled": false,
+    "key": "co12idd7hd",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 32,
+    "iconName": "{{currentItem.Status21[\"9\"]}}",
+    "dynamicHeight": "FIXED",
+    "widgetId": "fvzdqm69dq",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "ivzmhvoues",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "9999px",
+    "buttonVariant": "TERTIARY"
+}

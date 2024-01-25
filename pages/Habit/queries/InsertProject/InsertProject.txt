@@ -1,0 +1,8 @@
+INSERT INTO "Projects"
+  ("ProjectName")
+VALUES
+  (
+    {{ Input2.text }}
+
+
+  );

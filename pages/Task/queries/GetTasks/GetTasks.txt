@@ -1,0 +1,1 @@
+SELECT * FROM public."Tasks" where "Progress" < 100 and "Project" like {{appsmith.store.ProjectName}} and "AssignTo" like {{Select3.selectedOptionLabel}}  ORDER BY "id" ASC LIMIT {{List1.pageSize}} OFFSET {{(List1.pageNo - 1) * List1.pageSize}}

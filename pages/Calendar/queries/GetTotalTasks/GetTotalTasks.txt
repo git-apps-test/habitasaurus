@@ -1,0 +1,1 @@
+SELECT count(*) FROM public."Tasks" where "Progress" < 100

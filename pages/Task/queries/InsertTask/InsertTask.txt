@@ -1,0 +1,2 @@
+INSERT INTO "Tasks" ("TaskName", "TargetDate", "Recurring", "Project", "Progress", "AssignTo")
+  VALUES ( {{Input3.text}}, {{DatePicker2.formattedDate}}, {{RadioGroup1.selectedOptionValue}}, {{Select4.selectedOptionValue}},  0, {{Select5.selectedOptionValue}} );

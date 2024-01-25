@@ -1,0 +1,8 @@
+INSERT INTO "Habits"
+  ("Habitname", "Image", "Status21")
+VALUES
+  (
+    {{ Input3.text }},
+    {{ Input4.text }},
+    {{  Input5.text }}
+  );

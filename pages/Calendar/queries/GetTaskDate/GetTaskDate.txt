@@ -1,0 +1,1 @@
+SELECT *FROM public."Tasks" where "Progress" < 100 and "TargetDate" = {{appsmith.store.TargetDate}}

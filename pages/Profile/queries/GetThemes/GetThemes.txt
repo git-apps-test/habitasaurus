@@ -1,0 +1,1 @@
+SELECT * FROM "Themes" ORDER BY id LIMIT 10;

@@ -1,0 +1,3 @@
+UPDATE "Tasks"
+SET "Progress" = {{appsmith.store.progressstatus}}
+WHERE "id" = {{appsmith.store.taskid}};
