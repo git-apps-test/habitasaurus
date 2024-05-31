@@ -1,35 +1,47 @@
 {
-    "boxShadow": "none",
-    "widgetName": "IconButton5CopyCopy",
-    "onClick": "{{GetThemes.run()}}",
-    "buttonColor": "{{appsmith.store.PrimaryColor}}",
-    "dynamicPropertyPathList": [
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "displayName": "Icon Button",
-    "iconSVG": "/static/media/icon.1a0c634a.svg",
-    "topRow": 0,
-    "bottomRow": 4,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 59,
-    "dynamicBindingPathList": [{"key": "buttonColor"}],
-    "isDisabled": false,
-    "key": "f99n3i7r2p",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 61,
-    "iconName": "refresh",
-    "widgetId": "8bggbdzhly",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "2cf2k7ut78",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "9999px",
-    "buttonVariant": "TERTIARY"
+  "animateLoading": true,
+  "borderRadius": "9999px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.store.PrimaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "refresh",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "f99n3i7r2p",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 59,
+  "onClick": "{{GetThemes.run()}}",
+  "parentColumnSpace": 19.8125,
+  "parentId": "2cf2k7ut78",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "topRow": 0,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8bggbdzhly",
+  "widgetName": "IconButton5CopyCopy"
 }

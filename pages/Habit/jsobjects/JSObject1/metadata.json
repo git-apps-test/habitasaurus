@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6260151300cba01cd02eb65b_6267a28100cba01cd0304264",
+  "id": "Habit_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "Habit",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Habit_JSObject1",
-  "deleted": false,
-  "gitSyncId": "6260151300cba01cd02eb65b_6267a28100cba01cd0304264"
+    ]
+  }
 }

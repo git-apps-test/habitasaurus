@@ -1,39 +1,49 @@
 {
-    "boxShadow": "none",
-    "widgetName": "IconButton1Copy1Copy4",
-    "buttonColor": "{{currentItem.Status21[\"16\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" }}",
-    "dynamicPropertyPathList": [
-        {"key": "iconName"},
-        {"key": "buttonColor"},
-        {"key": "borderRadius"}
-    ],
-    "displayName": "Icon Button",
-    "iconSVG": "/static/media/icon.1a0c634a.svg",
-    "topRow": 3,
-    "bottomRow": 7,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 20.0625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 44,
-    "dynamicBindingPathList": [
-        {"key": "iconName"},
-        {"key": "buttonColor"}
-    ],
-    "isDisabled": false,
-    "key": "co12idd7hd",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 46,
-    "iconName": "{{currentItem.Status21[\"16\"]}}",
-    "dynamicHeight": "FIXED",
-    "widgetId": "xqik43kbjo",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "ivzmhvoues",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "9999px",
-    "buttonVariant": "TERTIARY"
+  "animateLoading": true,
+  "borderRadius": "9999px",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "{{currentItem.Status21[\"16\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" }}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "iconName"
+    },
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "iconName"
+    },
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconName": "{{currentItem.Status21[\"16\"]}}",
+  "iconSVG": "/static/media/icon.1a0c634a.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "co12idd7hd",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 44,
+  "parentColumnSpace": 20.0625,
+  "parentId": "ivzmhvoues",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 46,
+  "topRow": 3,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "xqik43kbjo",
+  "widgetName": "IconButton1Copy1Copy4"
 }

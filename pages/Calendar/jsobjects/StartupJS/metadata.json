@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6260151300cba01cd02eb65b_6267856100cba01cd030381b",
+  "id": "Calendar_StartupJS",
   "unpublishedCollection": {
     "name": "StartupJS",
     "pageId": "Calendar",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Calendar_StartupJS",
-  "deleted": false,
-  "gitSyncId": "6260151300cba01cd02eb65b_6267856100cba01cd030381b"
+    ]
+  }
 }
