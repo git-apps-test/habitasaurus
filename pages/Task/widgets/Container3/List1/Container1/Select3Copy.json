@@ -1,51 +1,65 @@
 {
-    "boxShadow": "none",
-    "widgetName": "Select3Copy",
-    "isFilterable": false,
-    "dynamicPropertyPathList": [
-        {"key": "labelTextColor"},
-        {"key": "sourceData"}
-    ],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "{{currentItem.AssignTo}}",
-    "topRow": 5,
-    "bottomRow": 9,
-    "parentRowSpace": 10,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( currentItem.AssignTo))(Select3Copy.options, Select3Copy.serverSideFiltering) }}",
-    "animateLoading": true,
-    "parentColumnSpace": 14.8564453125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 28,
-    "dynamicBindingPathList": [
-        {"key": "sourceData"},
-        {"key": "defaultOptionValue"},
-        {"key": "labelText"},
-        {"key": "placeholderText"},
-        {"key": "labelTextColor"}
-    ],
-    "labelTextColor": "{{appsmith.store.FontColor}}",
-    "placeholderText": "{{currentItem.AssignTo}}",
-    "isDisabled": false,
-    "sourceData": "{{ AssignTo.data.map((user) => {return  {label: user.AssignTo, value: user.AssignTo} }) }}",
-    "key": "dssgxae6ia",
-    "labelTextSize": "0.875rem",
-    "isRequired": true,
-    "rightColumn": 48,
-    "dynamicHeight": "FIXED",
-    "widgetId": "lhqg30rh8z",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "optionValue": "value",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "8nk0tyfivn",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "optionLabel": "label",
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( currentItem.AssignTo))(Select3Copy.options, Select3Copy.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "labelTextColor"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "dssgxae6ia",
+  "labelText": "{{currentItem.AssignTo}}",
+  "labelTextColor": "{{appsmith.store.FontColor}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 28,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 14.8564453125,
+  "parentId": "8nk0tyfivn",
+  "parentRowSpace": 10,
+  "placeholderText": "{{currentItem.AssignTo}}",
+  "renderMode": "CANVAS",
+  "rightColumn": 48,
+  "serverSideFiltering": false,
+  "sourceData": "{{ AssignTo.data.map((user) => {return  {label: user.AssignTo, value: user.AssignTo} }) }}",
+  "topRow": 5,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "lhqg30rh8z",
+  "widgetName": "Select3Copy"
 }

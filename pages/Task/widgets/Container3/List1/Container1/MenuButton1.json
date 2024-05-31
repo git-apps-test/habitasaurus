@@ -1,68 +1,72 @@
 {
-    "isCompact": false,
-    "boxShadow": "none",
-    "widgetName": "MenuButton1",
-    "displayName": "Menu Button",
-    "iconSVG": "/static/media/icon.0341d17d.svg",
-    "topRow": 5,
-    "bottomRow": 9,
-    "parentRowSpace": 10,
-    "type": "MENU_BUTTON_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 19.8125,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 56,
-    "dynamicBindingPathList": [{"key": "menuColor"}],
-    "isDisabled": false,
-    "key": "9ewpyhcgmh",
-    "labelTextSize": "0.875rem",
-    "rightColumn": 64,
-    "dynamicHeight": "FIXED",
-    "menuVariant": "PRIMARY",
-    "widgetId": "5emrs3jkpo",
-    "menuItems": {
-        "menuItem1": {
-            "widgetId": "",
-            "index": 0,
-            "label": "Tomorrow",
-            "id": "menuItem1",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItem3": {
-            "widgetId": "",
-            "index": 2,
-            "label": "Next Week",
-            "id": "menuItem3",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItem2": {
-            "widgetId": "",
-            "index": 1,
-            "label": "Day After",
-            "id": "menuItem2",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItemjnhjml9j2g": {
-            "widgetId": "ux20f0hfcj",
-            "index": 3,
-            "id": "menuItemjnhjml9j2g",
-            "label": "Skip",
-            "isDisabled": false,
-            "isVisible": true
-        }
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "displayName": "Menu Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.0341d17d.svg",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9ewpyhcgmh",
+  "label": "Reschedule",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 56,
+  "menuColor": "{{appsmith.store.PrimaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Tomorrow",
+      "widgetId": ""
     },
-    "isVisible": true,
-    "label": "Reschedule",
-    "version": 1,
-    "parentId": "8nk0tyfivn",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "menuColor": "{{appsmith.store.PrimaryColor}}",
-    "menuItemsSource": "STATIC",
-    "placement": "CENTER"
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Day After",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Next Week",
+      "widgetId": ""
+    },
+    "menuItemjnhjml9j2g": {
+      "id": "menuItemjnhjml9j2g",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Skip",
+      "widgetId": "ux20f0hfcj"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "parentColumnSpace": 19.8125,
+  "parentId": "8nk0tyfivn",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "topRow": 5,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5emrs3jkpo",
+  "widgetName": "MenuButton1"
 }

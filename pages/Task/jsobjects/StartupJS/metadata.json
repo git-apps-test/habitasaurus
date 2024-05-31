@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6260151300cba01cd02eb65b_6262538a00cba01cd02f443d",
+  "id": "Task_StartupJS",
   "unpublishedCollection": {
     "name": "StartupJS",
     "pageId": "Task",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Task_StartupJS",
-  "deleted": false,
-  "gitSyncId": "6260151300cba01cd02eb65b_6262538a00cba01cd02f443d"
+    ]
+  }
 }

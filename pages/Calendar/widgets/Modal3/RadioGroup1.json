@@ -1,45 +1,45 @@
 {
-    "boxShadow": "none",
-    "widgetName": "RadioGroup1",
-    "dynamicPropertyPathList": [],
-    "displayName": "Radio Group",
-    "iconSVG": "/static/media/icon.ba2b2ee0.svg",
-    "topRow": 31,
-    "bottomRow": 39,
-    "parentRowSpace": 10,
-    "type": "RADIO_GROUP_WIDGET",
-    "hideCard": false,
-    "defaultOptionValue": "true",
-    "animateLoading": true,
-    "parentColumnSpace": 6.9375,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 20,
-    "dynamicBindingPathList": [],
-    "options": [
-        {
-            "label": "Yes",
-            "value": "true"
-        },
-        {
-            "label": "No",
-            "value": "false"
-        }
-    ],
-    "isDisabled": false,
-    "key": "7407yag22o",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 62,
-    "dynamicHeight": "FIXED",
-    "widgetId": "bfw362gpdc",
-    "isVisible": true,
-    "label": "",
-    "version": 1,
-    "parentId": "fa2iyp894z",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "alignment": "left",
-    "minDynamicHeight": 4
+  "alignment": "left",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 39,
+  "boxShadow": "none",
+  "defaultOptionValue": "true",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ba2b2ee0.svg",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "7407yag22o",
+  "label": "",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 20,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Yes",
+      "value": "true"
+    },
+    {
+      "label": "No",
+      "value": "false"
+    }
+  ],
+  "parentColumnSpace": 6.9375,
+  "parentId": "fa2iyp894z",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "topRow": 31,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "bfw362gpdc",
+  "widgetName": "RadioGroup1"
 }

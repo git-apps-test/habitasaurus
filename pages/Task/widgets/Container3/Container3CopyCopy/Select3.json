@@ -1,52 +1,68 @@
 {
-    "boxShadow": "none",
-    "widgetName": "Select3",
-    "isFilterable": true,
-    "dynamicPropertyPathList": [
-        {"key": "onOptionChange"},
-        {"key": "labelTextColor"},
-        {"key": "sourceData"}
-    ],
-    "displayName": "Select",
-    "iconSVG": "/static/media/icon.bd99caba.svg",
-    "labelText": "Assigned To",
-    "topRow": 0,
-    "bottomRow": 4,
-    "parentRowSpace": 10,
-    "type": "SELECT_WIDGET",
-    "serverSideFiltering": false,
-    "hideCard": false,
-    "defaultOptionValue": "%",
-    "animateLoading": true,
-    "parentColumnSpace": 14.8564453125,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "leftColumn": 37,
-    "dynamicBindingPathList": [
-        {"key": "sourceData"},
-        {"key": "placeholderText"},
-        {"key": "labelTextColor"}
-    ],
-    "labelStyle": "BOLD",
-    "labelTextColor": "{{appsmith.store.FontColor}}",
-    "placeholderText": "{{ JSObject2.myFun3()[0][\"AssignTo\"]}}",
-    "isDisabled": false,
-    "sourceData": "{{ JSObject2.myFun3().map((user) => {return  {label: user.AssignTo, value: user.AssignTo} }) }}",
-    "key": "dssgxae6ia",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "rightColumn": 57,
-    "dynamicHeight": "FIXED",
-    "widgetId": "2tm4jkdik6",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "optionValue": "value",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "2cf2k7ut78",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "optionLabel": "label",
-    "borderRadius": "0px",
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{GetTasks.run()}}",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultOptionValue": "%",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "placeholderText"
+    },
+    {
+      "key": "labelTextColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "labelTextColor"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "dssgxae6ia",
+  "labelStyle": "BOLD",
+  "labelText": "Assigned To",
+  "labelTextColor": "{{appsmith.store.FontColor}}",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 37,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "onOptionChange": "{{GetTasks.run()}}",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 14.8564453125,
+  "parentId": "2cf2k7ut78",
+  "parentRowSpace": 10,
+  "placeholderText": "{{ JSObject2.myFun3()[0][\"AssignTo\"]}}",
+  "renderMode": "CANVAS",
+  "rightColumn": 57,
+  "serverSideFiltering": false,
+  "sourceData": "{{ JSObject2.myFun3().map((user) => {return  {label: user.AssignTo, value: user.AssignTo} }) }}",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "2tm4jkdik6",
+  "widgetName": "Select3"
 }

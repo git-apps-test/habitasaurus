@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "6260151300cba01cd02eb65b_6267a28100cba01cd030426a",
+  "id": "Habit_GetTasksJS",
   "unpublishedCollection": {
     "name": "GetTasksJS",
     "pageId": "Habit",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Habit_GetTasksJS",
-  "deleted": false,
-  "gitSyncId": "6260151300cba01cd02eb65b_6267a28100cba01cd030426a"
+    ]
+  }
 }

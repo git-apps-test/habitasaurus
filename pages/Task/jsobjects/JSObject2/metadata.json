@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "625fab2c00cba01cd02e9114_625fd93800cba01cd02ea22b",
+  "id": "Task_JSObject2",
   "unpublishedCollection": {
     "name": "JSObject2",
     "pageId": "Task",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Task_JSObject2",
-  "deleted": false,
-  "gitSyncId": "625fab2c00cba01cd02e9114_625fd93800cba01cd02ea22b"
+    ]
+  }
 }

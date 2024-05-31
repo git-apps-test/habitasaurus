@@ -1,292 +1,404 @@
 {
-    "template": {
-        "IconButton1Copy1Copy2Copy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"12\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"12\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"0\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
-            "dynamicPropertyPathList": [],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 8,
-            "bottomRow": 12,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 11,
-            "dynamicBindingPathList": [],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 13,
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"0\"];\n              })();\n            })}}",
-            "widgetId": "h8li96qf4f",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "ivzmhvoues",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'CIRCLE';\n              })();\n            })}}",
-            "buttonVariant": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy2Copy1Copy": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy2Copy1Copy",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"21\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 9,
-            "bottomRow": 13,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 52,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 54,
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"21\"];\n              })();\n            })}}",
-            "widgetId": "bivit40h2l",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "ivzmhvoues",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy1Copy1": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"10\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"10\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "Text1": {"text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Habitname;\n              })();\n            })}}"},
-        "IconButton1Copy1Copy1Copy2": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"18\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"18\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopyCopyCopy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"15\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"15\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"3\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"3\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy1CopyCopy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"14\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"14\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy1Copy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"6\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"6\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopy1Copy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"13\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"13\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopyCopy1": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"11\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"11\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopyCopy2": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"19\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"19\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"1\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"1\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy4": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"16\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"16\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy3": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"8\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"8\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy2Copy1": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"20\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"20\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "Image1": {"image": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Image;\n              })();\n            })}}"},
-        "IconButton1Copy1Copy2": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"4\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"4\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1Copy1": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"2\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"2\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopy1": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"5\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"5\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopy2": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"9\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"9\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopy3": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"17\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"17\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopyCopy": {
-            "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"7\"];\n              })();\n            })}}",
-            "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"7\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}"
-        },
-        "IconButton1Copy3CopyCopy1Copy4": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy3CopyCopy1Copy4",
-            "buttonColor": "#03B365",
-            "dynamicPropertyPathList": [],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 14,
-            "bottomRow": 18,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 29,
-            "dynamicBindingPathList": [],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 31,
-            "iconName": "tick",
-            "widgetId": "8smvg0lvbd",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "ivzmhvoues",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        }
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "backgroundColor": "transparent",
+  "borderRadius": "0px",
+  "bottomRow": 48,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 390,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dropDisabled": true,
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kt49bwzmdp",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "uk1syzz5qc",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 481.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "3awqeb5gid",
+      "widgetName": "Canvas1"
+    }
+  ],
+  "displayName": "List",
+  "dynamicBindingPathList": [
+    {
+      "key": "template.Text1.text"
     },
-    "boxShadow": "none",
-    "widgetName": "List1",
-    "listData": "{{getHabits.data}}",
-    "isCanvas": true,
-    "displayName": "List",
-    "iconSVG": "/static/media/icon.9925ee17.svg",
-    "topRow": 8,
-    "bottomRow": 48,
-    "parentRowSpace": 10,
-    "type": "LIST_WIDGET",
-    "hideCard": false,
-    "gridGap": 0,
-    "animateLoading": true,
-    "parentColumnSpace": 20.0625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 14,
-    "dynamicBindingPathList": [
-        {"key": "template.Text1.text"},
-        {"key": "listData"},
-        {"key": "template.Image1.image"},
-        {"key": "template.IconButton1Copy1.iconName"},
-        {"key": "template.IconButton1Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy.iconName"},
-        {"key": "template.IconButton1Copy1Copy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1.iconName"},
-        {"key": "template.IconButton1Copy1Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2.iconName"},
-        {"key": "template.IconButton1Copy1Copy2.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy1.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy1.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1Copy.iconName"},
-        {"key": "template.IconButton1Copy1Copy1Copy.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy3.iconName"},
-        {"key": "template.IconButton1Copy1Copy3.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy2.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy2.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1Copy1.iconName"},
-        {"key": "template.IconButton1Copy1Copy1Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy1.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy1.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2Copy.iconName"},
-        {"key": "template.IconButton1Copy1Copy2Copy.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy1Copy.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy1Copy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1CopyCopy.iconName"},
-        {"key": "template.IconButton1Copy1Copy1CopyCopy.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopyCopy.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopyCopy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy4.iconName"},
-        {"key": "template.IconButton1Copy1Copy4.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy3.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy3.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1Copy2.iconName"},
-        {"key": "template.IconButton1Copy1Copy1Copy2.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy2.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy2.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2Copy1.iconName"},
-        {"key": "template.IconButton1Copy1Copy2Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2Copy1Copy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2Copy1Copy.iconName"},
-        {"key": "accentColor"}
-    ],
-    "gridType": "vertical",
-    "enhancements": true,
-    "children": [{
-        "boxShadow": "none",
-        "widgetName": "Canvas1",
-        "displayName": "Canvas",
-        "topRow": 0,
-        "bottomRow": 390,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "hideCard": true,
-        "dropDisabled": true,
-        "openParentPropertyPane": true,
-        "minHeight": 400,
-        "noPad": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "key": "kt49bwzmdp",
-        "labelTextSize": "0.875rem",
-        "rightColumn": 481.5,
-        "detachFromLayout": true,
-        "widgetId": "3awqeb5gid",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "uk1syzz5qc",
-        "renderMode": "CANVAS",
-        "isLoading": false,
-        "borderRadius": "0px"
-    }],
-    "privateWidgets": {"undefined": true},
-    "key": "dh9pnmzqpq",
-    "labelTextSize": "0.875rem",
-    "backgroundColor": "transparent",
-    "rightColumn": 60,
-    "itemBackgroundColor": "#FFFFFF",
-    "widgetId": "uk1syzz5qc",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px"
+    {
+      "key": "listData"
+    },
+    {
+      "key": "template.Image1.image"
+    },
+    {
+      "key": "template.IconButton1Copy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy3.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy3.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1Copy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1Copy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1CopyCopy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1CopyCopy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopyCopy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopyCopy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy4.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy4.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy3.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy3.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1Copy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1Copy.iconName"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enhancements": true,
+  "gridGap": 0,
+  "gridType": "vertical",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.9925ee17.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "itemBackgroundColor": "#FFFFFF",
+  "key": "dh9pnmzqpq",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 14,
+  "listData": "{{getHabits.data}}",
+  "parentColumnSpace": 20.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "privateWidgets": {
+    "undefined": true
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "template": {
+    "IconButton1Copy1": {
+      "animateLoading": true,
+      "borderRadius": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'CIRCLE';\n              })();\n            })}}",
+      "bottomRow": 12,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"0\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "buttonVariant": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'TERTIARY';\n              })();\n            })}}",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [],
+      "dynamicPropertyPathList": [],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"0\"];\n              })();\n            })}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 11,
+      "parentColumnSpace": 20.0625,
+      "parentId": "ivzmhvoues",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 13,
+      "topRow": 8,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "h8li96qf4f",
+      "widgetName": "IconButton1Copy1"
+    },
+    "IconButton1Copy1Copy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"1\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"1\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy1": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"2\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"2\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy1Copy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"6\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"6\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy1Copy1": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"10\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"10\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy1Copy2": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"18\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"18\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy1CopyCopy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"14\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"14\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy2": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"4\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"4\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy2Copy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"12\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"12\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy2Copy1": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"20\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"20\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy2Copy1Copy": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 13,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"21\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"21\"];\n              })();\n            })}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 52,
+      "parentColumnSpace": 20.0625,
+      "parentId": "ivzmhvoues",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 54,
+      "topRow": 9,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "bivit40h2l",
+      "widgetName": "IconButton1Copy1Copy2Copy1Copy"
+    },
+    "IconButton1Copy1Copy3": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"8\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"8\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1Copy4": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"16\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"16\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"3\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"3\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopy1": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"5\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"5\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopy1Copy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"13\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"13\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopy2": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"9\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"9\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopy3": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"17\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"17\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopyCopy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"7\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"7\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopyCopy1": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"11\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"11\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopyCopy2": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"19\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"19\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy1CopyCopyCopyCopy": {
+      "buttonColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"15\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" ;\n              })();\n            })}}",
+      "iconName": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Status21[\"15\"];\n              })();\n            })}}"
+    },
+    "IconButton1Copy3CopyCopy1Copy4": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 18,
+      "boxShadow": "NONE",
+      "buttonColor": "#03B365",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [],
+      "dynamicPropertyPathList": [],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "tick",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 29,
+      "parentColumnSpace": 20.0625,
+      "parentId": "ivzmhvoues",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 31,
+      "topRow": 14,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "8smvg0lvbd",
+      "widgetName": "IconButton1Copy3CopyCopy1Copy4"
+    },
+    "Image1": {
+      "image": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Image;\n              })();\n            })}}"
+    },
+    "Text1": {
+      "text": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  currentItem.Habitname;\n              })();\n            })}}"
+    }
+  },
+  "topRow": 8,
+  "type": "LIST_WIDGET",
+  "widgetId": "uk1syzz5qc",
+  "widgetName": "List1"
 }

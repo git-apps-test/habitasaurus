@@ -1,1020 +1,1320 @@
 {
-    "template": {
-        "IconButton1Copy1": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"0\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 12,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 14,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"0\"])}}",
-            "widgetId": "s7wex1ecrn",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy1Copy3": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy1Copy3",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"6\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 24,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 26,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"6\"])}}",
-            "widgetId": "kd1p53t0wy",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy2Copy1Copy": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy2Copy1Copy",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"21\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 54,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 56,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"21\"])}}",
-            "widgetId": "0xbpx86b2q",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy1Copy1": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy1Copy1",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"10\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 32,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 34,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"10\"])}}",
-            "widgetId": "m6ph0lf83u",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy1Copy2": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy1Copy2",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"18\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 48,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 50,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"18\"])}}",
-            "widgetId": "acl7tqphgp",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopyCopyCopy": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopyCopyCopy",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"15\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 42,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 44,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"15\"])}}",
-            "widgetId": "z6o1b6kuj3",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy1CopyCopy": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy1CopyCopy",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"14\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 40,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 42,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"14\"])}}",
-            "widgetId": "bqm8ut6cea",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopy1Copy": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopy1Copy",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"13\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 38,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 40,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"13\"])}}",
-            "widgetId": "qjvwv2o5ig",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopyCopy1": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopyCopy1",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"11\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 34,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 36,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"11\"])}}",
-            "widgetId": "pvyv79yrgk",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopyCopy2": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopyCopy2",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"19\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 50,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 52,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"19\"])}}",
-            "widgetId": "4vtdvo9hsc",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopyCopy3": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopyCopy3",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"7\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 26,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 28,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"7\"])}}",
-            "widgetId": "cipt8g2o9q",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy5": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy5",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"1\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 14,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 16,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"1\"])}}",
-            "widgetId": "a4xmln2axs",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "Text1Copy": {
-            "widgetName": "Text1Copy",
-            "displayName": "Text",
-            "iconSVG": "/static/media/icon.97c59b52.svg",
-            "topRow": 11,
-            "bottomRow": 15,
-            "parentRowSpace": 10,
-            "type": "TEXT_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "overflow": "NONE",
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 4,
-            "dynamicBindingPathList": [{"key": "text"}],
-            "shouldTruncate": false,
-            "truncateButtonColor": "#FFC13D",
-            "text": "{{List1.listData.map((currentItem) => currentItem.Habitname)}}",
-            "key": "oiyi5qjwzv",
-            "rightColumn": 11,
-            "textAlign": "LEFT",
-            "widgetId": "r14pc6fwbw",
-            "isVisible": true,
-            "fontStyle": "BOLD",
-            "textColor": "#231F20",
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "fontSize": "PARAGRAPH"
-        },
-        "IconButton1Copy1Copy4": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy4",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"16\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 44,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 46,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"16\"])}}",
-            "widgetId": "a2jkn58aay",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy3": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy3",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"8\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 28,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 30,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"8\"])}}",
-            "widgetId": "ds52xc1oqg",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy2Copy1": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy2Copy1",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"20\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 52,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 54,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"20\"])}}",
-            "widgetId": "rvuwkz01vh",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy2Copy2": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy2Copy2",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"12\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 36,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 38,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"12\"])}}",
-            "widgetId": "hr4i3ivl2w",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy2": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy2",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"4\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 20,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 22,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"4\"])}}",
-            "widgetId": "7j28pkyq4w",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1Copy1": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1Copy1",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"2\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 16,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 18,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"2\"])}}",
-            "widgetId": "hsqpi7cwz2",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "MenuButton1": {
-            "menuColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.store.PrimaryColor;\n              })();\n            })}}",
-            "menuItems": {
-                "menuItem1": {
-                    "widgetId": "",
-                    "index": 0,
-                    "label": "Tomorrow",
-                    "id": "menuItem1",
-                    "isVisible": true,
-                    "isDisabled": false
-                },
-                "menuItem3": {
-                    "widgetId": "",
-                    "index": 2,
-                    "label": "Next Week",
-                    "id": "menuItem3",
-                    "isVisible": true,
-                    "isDisabled": false
-                },
-                "menuItem2": {
-                    "widgetId": "",
-                    "index": 1,
-                    "label": "Day After",
-                    "id": "menuItem2",
-                    "isVisible": true,
-                    "isDisabled": false
-                },
-                "menuItemjnhjml9j2g": {
-                    "widgetId": "ux20f0hfcj",
-                    "index": 3,
-                    "id": "menuItemjnhjml9j2g",
-                    "label": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Skip';\n              })();\n            })}}",
-                    "isDisabled": false,
-                    "isVisible": true
-                }
-            },
-            "label": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Done';\n              })();\n            })}}"
-        },
-        "IconButton1Copy1CopyCopy1": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopy1",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"5\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 22,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 24,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"5\"])}}",
-            "widgetId": "t9z1pri3uo",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopy2": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopy2",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"9\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 30,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 32,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"9\"])}}",
-            "widgetId": "eynlsu9y8h",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopy3": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopy3",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"17\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 46,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 48,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"17\"])}}",
-            "widgetId": "9syc6l6659",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "IconButton1Copy1CopyCopy4": {
-            "boxShadow": "NONE",
-            "widgetName": "IconButton1Copy1CopyCopy4",
-            "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"3\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
-            "dynamicPropertyPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "displayName": "Icon Button",
-            "iconSVG": "/static/media/icon.1a0c634a.svg",
-            "topRow": 10,
-            "bottomRow": 14,
-            "parentRowSpace": 10,
-            "type": "ICON_BUTTON_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "leftColumn": 18,
-            "dynamicBindingPathList": [
-                {"key": "iconName"},
-                {"key": "buttonColor"}
-            ],
-            "isDisabled": false,
-            "key": "co12idd7hd",
-            "rightColumn": 20,
-            "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"3\"])}}",
-            "widgetId": "0jyi0gkm4e",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "borderRadius": "CIRCLE",
-            "buttonVariant": "TERTIARY"
-        },
-        "Image1Copy1": {
-            "widgetName": "Image1Copy1",
-            "displayName": "Image",
-            "iconSVG": "/static/media/icon.52d8fb96.svg",
-            "topRow": 10,
-            "bottomRow": 16,
-            "parentRowSpace": 10,
-            "type": "IMAGE_WIDGET",
-            "hideCard": false,
-            "animateLoading": true,
-            "parentColumnSpace": 20.0625,
-            "dynamicTriggerPathList": [],
-            "imageShape": "RECTANGLE",
-            "leftColumn": 0,
-            "dynamicBindingPathList": [{"key": "image"}],
-            "defaultImage": "https://cdn-icons-png.flaticon.com/512/4509/4509324.png",
-            "key": "cm2qr5329i",
-            "image": "{{List1.listData.map((currentItem) => currentItem.Image)}}",
-            "rightColumn": 4,
-            "objectFit": "contain",
-            "widgetId": "711uvj6hi5",
-            "isVisible": true,
-            "version": 1,
-            "parentId": "8nk0tyfivn",
-            "renderMode": "CANVAS",
-            "isLoading": false,
-            "maxZoomLevel": 1,
-            "enableDownload": false,
-            "enableRotation": false
-        }
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "backgroundColor": "",
+  "borderRadius": "0px",
+  "bottomRow": 84,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 390,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dropDisabled": true,
+      "dynamicBindingPathList": [],
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "kt49bwzmdp",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "noPad": true,
+      "openParentPropertyPane": true,
+      "parentColumnSpace": 1,
+      "parentId": "n7t1uo0ryh",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 481.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "lrji168ock",
+      "widgetName": "Canvas1"
+    }
+  ],
+  "displayName": "List",
+  "dynamicBindingPathList": [
+    {
+      "key": "template.MenuButton1.menuItems.menuItemjnhjml9j2g.label"
     },
-    "boxShadow": "none",
-    "widgetName": "List1",
-    "listData": "{{getHabits.data}}",
-    "isCanvas": true,
-    "dynamicPropertyPathList": [
-        {"key": "backgroundColor"},
-        {"key": "itemBackgroundColor"}
-    ],
-    "displayName": "List",
-    "iconSVG": "/static/media/icon.9925ee17.svg",
-    "topRow": 26,
-    "bottomRow": 84,
-    "parentRowSpace": 10,
-    "onPageChange": "{{GetTasks.run()}}",
-    "type": "LIST_WIDGET",
-    "hideCard": false,
-    "gridGap": 0,
-    "animateLoading": true,
-    "parentColumnSpace": 20.0625,
-    "dynamicTriggerPathList": [
-        {"key": "onListItemClick"},
-        {"key": "onPageChange"}
-    ],
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "template.MenuButton1.menuItems.menuItemjnhjml9j2g.label"},
-        {"key": "template.MenuButton1.label"},
-        {"key": "template.MenuButton1.menuColor"},
-        {"key": "itemBackgroundColor"},
-        {"key": "template.Image1Copy1.image"},
-        {"key": "template.Text1Copy.text"},
-        {"key": "listData"},
-        {"key": "template.IconButton1Copy1Copy2Copy1Copy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2Copy1Copy.iconName"},
-        {"key": "template.IconButton1Copy1Copy2Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2Copy1.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy2.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy2.iconName"},
-        {"key": "template.IconButton1Copy1Copy1Copy2.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1Copy2.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy3.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy3.iconName"},
-        {"key": "template.IconButton1Copy1Copy4.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy4.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopyCopy.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopyCopy.iconName"},
-        {"key": "template.IconButton1Copy1Copy1CopyCopy.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1CopyCopy.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy1Copy.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy1Copy.iconName"},
-        {"key": "template.IconButton1Copy1Copy2Copy2.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2Copy2.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy1.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy1.iconName"},
-        {"key": "template.IconButton1Copy1Copy1Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1Copy1.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy2.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy2.iconName"},
-        {"key": "template.IconButton1Copy1Copy3.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy3.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy3.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopyCopy3.iconName"},
-        {"key": "template.IconButton1Copy1Copy1Copy3.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1Copy3.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy1.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy1.iconName"},
-        {"key": "template.IconButton1Copy1Copy2.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy2.iconName"},
-        {"key": "template.IconButton1Copy1CopyCopy4.buttonColor"},
-        {"key": "template.IconButton1Copy1CopyCopy4.iconName"},
-        {"key": "template.IconButton1Copy1Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy1.iconName"},
-        {"key": "template.IconButton1Copy1Copy5.buttonColor"},
-        {"key": "template.IconButton1Copy1Copy5.iconName"},
-        {"key": "template.IconButton1Copy1.buttonColor"},
-        {"key": "template.IconButton1Copy1.iconName"},
-        {"key": "accentColor"}
-    ],
-    "gridType": "vertical",
-    "enhancements": true,
-    "children": [{
-        "boxShadow": "none",
-        "widgetName": "Canvas1",
-        "displayName": "Canvas",
-        "topRow": 0,
-        "bottomRow": 390,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "hideCard": true,
-        "dropDisabled": true,
-        "openParentPropertyPane": true,
-        "minHeight": 400,
-        "noPad": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "dynamicBindingPathList": [],
-        "key": "kt49bwzmdp",
-        "labelTextSize": "0.875rem",
-        "rightColumn": 481.5,
-        "detachFromLayout": true,
-        "widgetId": "lrji168ock",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "n7t1uo0ryh",
-        "renderMode": "CANVAS",
-        "isLoading": false,
-        "borderRadius": "0px"
-    }],
-    "privateWidgets": {"undefined": true},
-    "key": "dh9pnmzqpq",
-    "labelTextSize": "0.875rem",
-    "backgroundColor": "",
-    "rightColumn": 64,
-    "onListItemClick": "",
-    "itemBackgroundColor": "{{appsmith.store.SecondaryColor}}",
-    "widgetId": "n7t1uo0ryh",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "parentId": "8q5v7t71id",
-    "serverSidePaginationEnabled": true,
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "0px"
+    {
+      "key": "template.MenuButton1.label"
+    },
+    {
+      "key": "template.MenuButton1.menuColor"
+    },
+    {
+      "key": "itemBackgroundColor"
+    },
+    {
+      "key": "template.Image1Copy1.image"
+    },
+    {
+      "key": "template.Text1Copy.text"
+    },
+    {
+      "key": "listData"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1Copy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1Copy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy3.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy3.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy4.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy4.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopyCopy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopyCopy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1CopyCopy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1CopyCopy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1Copy.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1Copy.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2Copy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy3.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy3.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy3.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopyCopy3.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy3.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1Copy3.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy2.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy4.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1CopyCopy4.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy1.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy5.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1Copy5.iconName"
+    },
+    {
+      "key": "template.IconButton1Copy1.buttonColor"
+    },
+    {
+      "key": "template.IconButton1Copy1.iconName"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "itemBackgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onListItemClick"
+    },
+    {
+      "key": "onPageChange"
+    }
+  ],
+  "enhancements": true,
+  "gridGap": 0,
+  "gridType": "vertical",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.9925ee17.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": true,
+  "itemBackgroundColor": "{{appsmith.store.SecondaryColor}}",
+  "key": "dh9pnmzqpq",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "listData": "{{getHabits.data}}",
+  "onListItemClick": "",
+  "onPageChange": "{{GetTasks.run()}}",
+  "parentColumnSpace": 20.0625,
+  "parentId": "8q5v7t71id",
+  "parentRowSpace": 10,
+  "privateWidgets": {
+    "undefined": true
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "serverSidePaginationEnabled": true,
+  "template": {
+    "IconButton1Copy1": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"0\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"0\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 12,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 14,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "s7wex1ecrn",
+      "widgetName": "IconButton1Copy1"
+    },
+    "IconButton1Copy1Copy1": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"2\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"2\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 16,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 18,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "hsqpi7cwz2",
+      "widgetName": "IconButton1Copy1Copy1"
+    },
+    "IconButton1Copy1Copy1Copy1": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"10\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"10\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 32,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 34,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "m6ph0lf83u",
+      "widgetName": "IconButton1Copy1Copy1Copy1"
+    },
+    "IconButton1Copy1Copy1Copy2": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"18\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"18\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 48,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 50,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "acl7tqphgp",
+      "widgetName": "IconButton1Copy1Copy1Copy2"
+    },
+    "IconButton1Copy1Copy1Copy3": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"6\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"6\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 24,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 26,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "kd1p53t0wy",
+      "widgetName": "IconButton1Copy1Copy1Copy3"
+    },
+    "IconButton1Copy1Copy1CopyCopy": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"14\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"14\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 40,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 42,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "bqm8ut6cea",
+      "widgetName": "IconButton1Copy1Copy1CopyCopy"
+    },
+    "IconButton1Copy1Copy2": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"4\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"4\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 20,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 22,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "7j28pkyq4w",
+      "widgetName": "IconButton1Copy1Copy2"
+    },
+    "IconButton1Copy1Copy2Copy1": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"20\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"20\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 52,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 54,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "rvuwkz01vh",
+      "widgetName": "IconButton1Copy1Copy2Copy1"
+    },
+    "IconButton1Copy1Copy2Copy1Copy": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"21\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"21\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 54,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 56,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "0xbpx86b2q",
+      "widgetName": "IconButton1Copy1Copy2Copy1Copy"
+    },
+    "IconButton1Copy1Copy2Copy2": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"12\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"12\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 36,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 38,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "hr4i3ivl2w",
+      "widgetName": "IconButton1Copy1Copy2Copy2"
+    },
+    "IconButton1Copy1Copy3": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"8\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"8\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 28,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 30,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "ds52xc1oqg",
+      "widgetName": "IconButton1Copy1Copy3"
+    },
+    "IconButton1Copy1Copy4": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"16\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"16\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 44,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 46,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "a2jkn58aay",
+      "widgetName": "IconButton1Copy1Copy4"
+    },
+    "IconButton1Copy1Copy5": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"1\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"1\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 14,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 16,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "a4xmln2axs",
+      "widgetName": "IconButton1Copy1Copy5"
+    },
+    "IconButton1Copy1CopyCopy1": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"5\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"5\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 22,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 24,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "t9z1pri3uo",
+      "widgetName": "IconButton1Copy1CopyCopy1"
+    },
+    "IconButton1Copy1CopyCopy1Copy": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"13\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"13\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 38,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 40,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "qjvwv2o5ig",
+      "widgetName": "IconButton1Copy1CopyCopy1Copy"
+    },
+    "IconButton1Copy1CopyCopy2": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"9\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"9\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 30,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 32,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "eynlsu9y8h",
+      "widgetName": "IconButton1Copy1CopyCopy2"
+    },
+    "IconButton1Copy1CopyCopy3": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"17\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"17\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 46,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 48,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "9syc6l6659",
+      "widgetName": "IconButton1Copy1CopyCopy3"
+    },
+    "IconButton1Copy1CopyCopy4": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"3\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"3\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 18,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 20,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "0jyi0gkm4e",
+      "widgetName": "IconButton1Copy1CopyCopy4"
+    },
+    "IconButton1Copy1CopyCopyCopy1": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"11\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"11\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 34,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 36,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "pvyv79yrgk",
+      "widgetName": "IconButton1Copy1CopyCopyCopy1"
+    },
+    "IconButton1Copy1CopyCopyCopy2": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"19\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"19\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 50,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 52,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "4vtdvo9hsc",
+      "widgetName": "IconButton1Copy1CopyCopyCopy2"
+    },
+    "IconButton1Copy1CopyCopyCopy3": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"7\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"7\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 26,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 28,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "cipt8g2o9q",
+      "widgetName": "IconButton1Copy1CopyCopyCopy3"
+    },
+    "IconButton1Copy1CopyCopyCopyCopy": {
+      "animateLoading": true,
+      "borderRadius": "CIRCLE",
+      "bottomRow": 14,
+      "boxShadow": "NONE",
+      "buttonColor": "{{List1.listData.map((currentItem) => currentItem.Status21[\"15\"] ===  \"small-cross\" ? \"#DD4B34\" : \" #03b365\" )}}",
+      "buttonVariant": "TERTIARY",
+      "displayName": "Icon Button",
+      "dynamicBindingPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicPropertyPathList": [
+        {
+          "key": "iconName"
+        },
+        {
+          "key": "buttonColor"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "hideCard": false,
+      "iconName": "{{List1.listData.map((currentItem) => currentItem.Status21[\"15\"])}}",
+      "iconSVG": "/static/media/icon.1a0c634a.svg",
+      "isDisabled": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "co12idd7hd",
+      "leftColumn": 42,
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 44,
+      "topRow": 10,
+      "type": "ICON_BUTTON_WIDGET",
+      "version": 1,
+      "widgetId": "z6o1b6kuj3",
+      "widgetName": "IconButton1Copy1CopyCopyCopyCopy"
+    },
+    "Image1Copy1": {
+      "animateLoading": true,
+      "bottomRow": 16,
+      "defaultImage": "https://cdn-icons-png.flaticon.com/512/4509/4509324.png",
+      "displayName": "Image",
+      "dynamicBindingPathList": [
+        {
+          "key": "image"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "enableDownload": false,
+      "enableRotation": false,
+      "hideCard": false,
+      "iconSVG": "/static/media/icon.52d8fb96.svg",
+      "image": "{{List1.listData.map((currentItem) => currentItem.Image)}}",
+      "imageShape": "RECTANGLE",
+      "isLoading": false,
+      "isVisible": true,
+      "key": "cm2qr5329i",
+      "leftColumn": 0,
+      "maxZoomLevel": 1,
+      "objectFit": "contain",
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 4,
+      "topRow": 10,
+      "type": "IMAGE_WIDGET",
+      "version": 1,
+      "widgetId": "711uvj6hi5",
+      "widgetName": "Image1Copy1"
+    },
+    "MenuButton1": {
+      "label": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Done';\n              })();\n            })}}",
+      "menuColor": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  appsmith.store.PrimaryColor;\n              })();\n            })}}",
+      "menuItems": {
+        "menuItem1": {
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Tomorrow",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Day After",
+          "widgetId": ""
+        },
+        "menuItem3": {
+          "id": "menuItem3",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Next Week",
+          "widgetId": ""
+        },
+        "menuItemjnhjml9j2g": {
+          "id": "menuItemjnhjml9j2g",
+          "index": 3,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "{{List1.listData.map((currentItem, currentIndex) => {\n              return (function(){\n                return  'Skip';\n              })();\n            })}}",
+          "widgetId": "ux20f0hfcj"
+        }
+      }
+    },
+    "Text1Copy": {
+      "animateLoading": true,
+      "bottomRow": 15,
+      "displayName": "Text",
+      "dynamicBindingPathList": [
+        {
+          "key": "text"
+        }
+      ],
+      "dynamicTriggerPathList": [],
+      "fontSize": "PARAGRAPH",
+      "fontStyle": "BOLD",
+      "hideCard": false,
+      "iconSVG": "/static/media/icon.97c59b52.svg",
+      "isLoading": false,
+      "isVisible": true,
+      "key": "oiyi5qjwzv",
+      "leftColumn": 4,
+      "overflow": "NONE",
+      "parentColumnSpace": 20.0625,
+      "parentId": "8nk0tyfivn",
+      "parentRowSpace": 10,
+      "renderMode": "CANVAS",
+      "rightColumn": 11,
+      "shouldTruncate": false,
+      "text": "{{List1.listData.map((currentItem) => currentItem.Habitname)}}",
+      "textAlign": "LEFT",
+      "textColor": "#231F20",
+      "topRow": 11,
+      "truncateButtonColor": "#FFC13D",
+      "type": "TEXT_WIDGET",
+      "version": 1,
+      "widgetId": "r14pc6fwbw",
+      "widgetName": "Text1Copy"
+    }
+  },
+  "topRow": 26,
+  "type": "LIST_WIDGET",
+  "widgetId": "n7t1uo0ryh",
+  "widgetName": "List1"
 }
